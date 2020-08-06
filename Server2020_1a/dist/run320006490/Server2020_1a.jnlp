@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Server2020_1a.jnlp">
+  <information>
+    <title>Server2020_1a</title>
+    <vendor>yokoi</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Server2020_1a.jar" size="3565674" download="eager" />
+    <jar href="lib\jcommon-1.0.16.jar" size="309293" download="eager" />
+    <jar href="lib\jfreechart-1.0.13-experimental.jar" size="13423" download="eager" />
+    <jar href="lib\jfreechart-1.0.13-swt.jar" size="72659" download="eager" />
+    <jar href="lib\jfreechart-1.0.13.jar" size="1425744" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Server2020_1a" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="Server2020_1a"  name="Server2020_1a" />
+  <update check="always"/>
+</jnlp>
